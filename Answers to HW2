@@ -1,0 +1,21 @@
+Q1:
+Structural elements in HTML, such as <div> and <span>, serve to organize and structure content on a webpage without conveying any specific meaning. Useful for layout and organization.
+Semantic elements, like <h1> for headings, <p> for paragraphs, and <a> for links, provide useful information about the content surrounding it. 
+Semantic elements enhance the accessibility of a webpage by offering a clear structure and conveying the purpose or type of content.
+
+Q2:
+Using th correct HTML elements can contribute to a semantic and well-organized structure on a webpage. 
+Not only does this improve the accessibility of the content for users and search engines but also enhances readability for developers, allowing more developers to work on your code. 
+Proper HTML semantics ensure that there is meaning behind the content developers write but also fosters a consistent and user-friendly browsing experience.
+
+Q3:
+HTML forms are very important when it comes to web pages, they allowe users to input data and interact with a website. 
+Forms encompass various elements like text fields, radio buttons, checkboxes, and buttons. 
+The main purpose of HTML forms is to collect user input, whether it be for user registration, login, search functionality, or other interactive features. 
+Forms facilitate the exchange of information between users and servers, making them fundamental for web development.
+
+Q4:
+Inline elements, like <span> and <a>, do not start on a new line and only occupy as much width as necessary. 
+They are meant for incorporating smaller amounts of content within a line or alongside other elements. 
+But block elements, including <div> and <p>, always begin on a new line and span the full width available. 
+They create distinct blocks of content, but they also take up the larger spaces within the document.
