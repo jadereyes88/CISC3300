@@ -1,0 +1,18 @@
+Q1:
+step 1: Users input a website's URL into their browser's address bar.
+step 2: The Internet Service Provider (ISP) facilitates the connection to the internet.
+step 3: The browser contacts the Domain Name System (DNS) to translate the URL into the corresponding IP address.
+step 4: Using the IP address, the browser establishes a connection with the web server hosting the requested webpage.
+step 5: The web server responds by sending back the webpage's HTML, CSS, and other resources needed for rendering.
+
+Q2:
+HTML is Hypertext Markup Language and HTML is a standard markup language used to create the structure of a webpage.
+It provides a set of elements (tags) that define the structure and content of a webpage, using as headings, paragraphs, links, and images.
+
+Q3:
+Fordham uses clear structure at the top with the navigation menu, images pop out providing news. They are also consisent with there color use as it is the colors that represents Fordham
+
+Q4:
+An HTML Element is one of the basic building block for HTML. It's an opening tag, contents, and a closing tag (e.g., <p>contents</p>).
+The tag is the HTML code used to define elements. Tags come in pairs, with an opening tag that indicates the beginning and a closing tag indicates the end of an element.
+An Attribute is extra information added to HTML elements to provide more details or modify their behavior (e.g., <a href="http://something.com">click me</a>).
