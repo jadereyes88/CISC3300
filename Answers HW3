@@ -1,0 +1,20 @@
+3.
+Margin: controls space outside an element, affecting spacing between elements. Margins can also collapse.
+Padding: adjusts space inside an element, influencing spacing between content and the element's border. Padding doesn't collapse.
+Border: defines a visible boundary around an element for styling purposes, it's placed just outside the padding.
+
+4.
+display: flex:
+this turns a container into a flex container for flexible and responsive layout.
+
+flex-direction:
+this sets the direction of flexible items (horizontal, vertical, or reversed).
+
+flex-wrap:
+this controls item wrapping within a flex container (no wrap, wrap, or reverse wrap).
+
+justify-content/align-items:
+this aligns items along the main (horizontal or vertical) and cross (opposite) axes.
+
+align-content:
+this aligns multiple lines of items when they wrap within a container.
