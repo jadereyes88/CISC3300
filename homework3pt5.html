@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; 
+            background-color: #fff;
+        }
+
+        .sidebar {
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-item, .new-sidebar-item {
+            font-weight: normal;
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px; 
+            text-align: center;
+        }
+
+      .sidebar-first {
+            font-weight: normal;
+            color: #8C0A23;
+            padding: 10px;
+            margin-bottom: 10px; 
+            text-align: left;
+      }
+
+        .sidebar-item {
+            background-color: #e7ebe7;
+            color: #333; 
+            border-left: 2px solid #8C0A23;
+            text-align: left; 
+        }
+
+        .new-sidebar-item {
+            font-weight: bold;
+            background-color: #8C0A23; 
+            margin-bottom: 20px; 
+        }
+
+        .main-content {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .computer-science-container {
+            padding: 0 50px;
+        }
+
+        .computer-science-container h1 {
+            color: #8C0A23;
+            font-size: 48px;
+            margin: 20px 0;
+            font-weight: 300;
+        }
+
+        .computer-science-container .nav {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+	        .text-and-image-container {
+            display: flex;
+            align-items: center; 
+            justify-content: space-between; 
+            margin-bottom: 20px; 
+        }
+
+        .text-content {
+            flex: 3;
+            margin-right: 20px; 
+        }
+
+        .image-content {
+            flex: 1; 
+            display: flex;
+            justify-content: end; 
+        }
+
+        .image-content img {
+            max-width: 100%;
+            height: auto;
+        }	
+       
+        @media screen and (min-width: 1200px) {
+            body {
+                flex-direction: row; 
+            }
+
+            .sidebar {
+                width: 500px;
+                padding: 20px;
+                border-right: 1px solid #ccc;
+            }
+
+            .main-content {
+                padding-left: 50px;
+                padding-right: 50px; 
+            }
+        }
+
+        .degree-info {
+            margin-top: 37px;
+            font-weight: normal; 
+            color: #333; 
+            margin-bottom: 10px; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar-first">Majors and Minors</div>
+        <div class="sidebar-item">What's Your Passion?</div>
+        <div class="sidebar-item">Accelerated Degree Programs</div>
+        <div class="new-sidebar-item">Majors and Minors</div> 
+    </div>
+
+    <div class="main-content">
+<div class="computer-science-container">
+    <div class="nav">
+        Home / Admissions and Aid / Undergraduate Admission / Majors and Minors / Computer Science
+    </div>
+    <h1>Computer Science</h1>
+    <div class="degree-info">
+        Degree Options: Major, Minor<br>
+        Locations: Lincoln Center, Rose Hill<br>
+        Visit the <a href="#">Computer and Information Science Department</a>
+    </div>
+    <div class="text-and-image-container">
+        <div class="text-content">
+            <p style="font-size: 20px;">Wherever there's a computer, there's a skilled person developing, maintaining, hacking, advancing or simply using it. Be that person.</p>
+            <p>It's difficult to imagine life without computers when they're so central to our information-driven global society. But it's not difficult to imagine the amazing pursuits you'll be prepared for with a degree in computer science from Fordham's department of Computer and Information Sciences.</p>
+            <p>The computer science major emphasizes science and technology, including software design and programming, computer architecture and functions, and the development of an ability to analyze and solve problems in using the computer as a tool.</p>
+            <p>Get inspired by the classes we offer. Programming. Bioinformatics. Robotics. Video game design. Cyber security. Networking. Database management. Health and medical informatics.</p>
+        </div>
+        <div class="image-content">
+            <a href="https://lh3.googleusercontent.com/drive-viewer/AEYmBYQYiclemdQB4SH1nk-JGrP7xdO904hHhTFxhXTV1BlSvsuhjHm8HzFFhbJEMVruJhKQ_bXUHvt_WONUlEpWfoF6zm7u=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYQYiclemdQB4SH1nk-JGrP7xdO904hHhTFxhXTV1BlSvsuhjHm8HzFFhbJEMVruJhKQ_bXUHvt_WONUlEpWfoF6zm7u=s2560" /> </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
