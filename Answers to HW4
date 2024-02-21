@@ -1,5 +1,18 @@
 1.  
 Java script is a scripting language primarily used for web development to make web pages interactive or just for enahncing the web page.
-Interpreted languages, like JavaScript, are executed on-the-fly by an interpreter.
-Compiled languages are pre-converted into machine code by a compiler, usually leading to quicker run times.
+Interpreted languages, like JavaScript, are executed on-the-fly by an interpreter, which makes them flexible but also means it's slower than compiled languages.
+Compiled languages are pre-converted into machine code by a compiler, this means it cannot be read by a human, and is typically faster.
+
+2.
+var: Traditional, with scope limited to entire functions or globally, allows redeclaration.
+let: Confined to the block it's defined in, can be redeclared within its scope.
+const: Also block-scoped, but cannot be redeclared once set.
+
+3.
+An Anonymous function is a function with no name, it's usually a short lived function.
+Higher Order Functions are functions that either take other functions as arguments or return them as their result.
+
+4.
+Objects: An object in js is a set of properties, with each property being a key-value pair. If a property's value is a function, it's called a method.
+Difference from Traditional OOP: JavaScript uses prototype-based inheritance (objects inherit from other objects), unlike class-based inheritance in languages like Java or C++.
 
