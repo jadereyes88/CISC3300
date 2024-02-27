@@ -1,0 +1,8 @@
+4.
+The DOM stands for Document Object Model and it's a interface for web documents, representing them as a tree of nodes, including elements and text. 
+The DOM tree is this hierarchical representation, allowing scripts to read and manipulate the document's content, structure, and styles.
+
+5.
+XSS stands for Cross-Site Scripting and these attacks involve injecting malicious scripts into web pages that are viewed by others. 
+These attacks can steal sensitive data like cookies or session tokens.
+To guard against these attacks it's best to validate and sanitize input to ensure it doesn't contain executable code.
