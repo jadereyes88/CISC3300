@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Interactive Elements</title>
+    <style>
+        .blue-text {
+            color: blue;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            // A: Change button text upon click
+            document.getElementById('changeTextButton').addEventListener('click', function() {
+                this.textContent = 'You have clicked me!';
+            });
+
+            // B: Change list items color upon any list item click
+            document.querySelectorAll('#myList li').forEach(function(item) {
+                item.addEventListener('click', function() {
+                    document.querySelectorAll('#myList li').forEach(function(li) {
+                        li.classList.add('blue-text');
+                    });
+                });
+            });
+
+            // C: Append a paragraph when the second button is clicked
+            document.getElementById('appendParaButton').addEventListener('click', function() {
+                const para = document.createElement('p');
+                para.textContent = 'This is a new paragraph.';
+                this.parentElement.appendChild(para);
+            });
+        }
+    </script>
+</head>
+<body>
+
+    <!-- A -->
+    <button id="changeTextButton">Click Me</button>
+
+    <!-- B -->
+    <ul id="myList">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ul>
+
+    <!-- C -->
+    <div>
+        <button id="appendParaButton">Add Paragraph</button>
+    </div>
+
+</body>
+</html>
