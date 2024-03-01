@@ -1,0 +1,16 @@
+1.
+It's a protocol for transmitting web documents. 
+It has request methods 
+GET (retrieve data), 
+POST (submit data), 
+PUT (update resources),
+DELETE (remove resources), and others as well.
+
+2.
+API stands for Application Programming Interface 
+It's a set of rules for software interaction. 
+JSON (JavaScript Object Notation) is a format for structuring data exchanged between APIs, characterized by its readable format and ease of use
+
+3.
+A technique for creating dynamic web pages that update content asynchronously, allowing web applications to function without having to reload the entire page. 
+Asynchronous code in programming executes tasks in the background, improving efficiency and user experience by not blocking other operations.
