@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cat Facts App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Boom Random Cat Fact!</h1>
+    <div id="catFact"></div>
+    <button id="getFact">Get New Fact</button>
+
+    <script>
+        $(document).ready(function() {
+            function fetchCatFact() {
+                $.ajax({
+                    url: 'https://meowfacts.herokuapp.com/',
+                    type: 'GET',
+                    success: function(response) {
+                        $('#catFact').html('<p>' + response.data[0] + '</p>');
+                    }
+                });
+            }
+
+            fetchCatFact(); 
+
+            $('#getFact').click(function() {
+                fetchCatFact(); 
+            });
+        });
+    </script>
+</body>
+</html>
